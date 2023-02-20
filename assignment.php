@@ -1,5 +1,5 @@
 <?php
-// Answer to the question no-1
+// Answer no-1
 
 function sortByLength($a, $b)
 {
@@ -12,7 +12,7 @@ usort($array, 'sortByLength');
 print_r($array);
 echo PHP_EOL;
 
-// Answer to the question no-2
+// Answer no-2
 
 $string1 = "Hello World!";
 $string2 = "Everyone";
@@ -21,7 +21,7 @@ $result = $string1_end . $string2;
 echo $result;
 echo PHP_EOL;
 
-// Answer to the question no-3
+// Answer no-3
 
 $fruits = array("Java", "PHP", "Laravel", "Node JS");
 $newFruites = array_slice($fruits, 1, 2);
@@ -29,7 +29,7 @@ $newFruites = array_slice($fruits, 1, 2);
 print_r($newFruites);
 echo PHP_EOL;
 
-// Answer to question no-4
+// Answer no-4
 
 function Check($value)
 {
@@ -47,7 +47,7 @@ echo PHP_EOL;
 echo $result2;
 echo PHP_EOL;
 
-// Answer to question no-5
+// Answer no-5
 
 $harr = array(58, 200, 30, 90, 150);
 $r = rsort($harr);
